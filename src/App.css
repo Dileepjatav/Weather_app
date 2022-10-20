@@ -1,38 +1,159 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
+  width: 100%;
+  height: 650px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.weatherbox{
+  height: 500px;
+  width: 1050px;
+  background-color: rgba(51, 71, 109, 0.774);
+  border-radius: 5px;
+
+}
+.input{
+  width: 194px;
+  height: 33px;
+  border: 2px solid  rgb(175, 175, 175);  
+  margin-top: 30px;
+  border-radius: 10px;
+  font-size:medium;
+  text-align: center;
+  text-transform: uppercase;
+}
+.input:hover{
+  border: 4px solid  rgb(141, 139, 139);
+  
+
+}
+
+
+.btn{
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color:rgba(109, 228, 208, 0.61);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 136px;
+  height: 36px;
+  border-radius: 18px;
+  border: solid 1px transparent;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color:rgba(36, 255, 120, 0.774);
+
+}
+.search-area{
+  text-align: center;
+  width: 1050px;
+}
+
+
+
+.card-container{
+  max-width: 100%;
+  height:80%;
+  display: block;
+  
+}
+.box1{
+  display: grid;
+  height: 240px;
+  width: 100%;
+  grid-template-columns: 50% 50%;
+  
+}
+
+.content1{
+  text-align: center;
+
+}
+
+.content2{
+  display: flex;
+}
+.time{
   color: white;
+  font-size: 80px;
+  font-weight: 100;
+  margin-top: 10px;
+
+}
+.date{
+  color: white;
+  font-size: 50px;
+  font-weight: 100;
+  margin-top: 20px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.box3{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.temp{
+  display: flex;
+}
+.o{
+  color: white;
+  font-size: 40px;
+  margin-top: 40px;
+  font-weight: 200;
+}
+.c{
+  color: white;
+  font-size: 70px;
+  margin-top: 35px;
+  font-weight: 300;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.celcius{
+  color: white;
+  font-size: 150px;
+  font-weight: 100;
+  margin-top: 20px;
+
 }
+
+.avg-temp{
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  margin-left: 20px;
+}
+span{
+  font-size: 20px;
+  color: white;
+
+}
+.city{
+  color: white;
+  font-size: 50px;
+  font-weight: 100;
+}
+.str{
+  font-size:50px;
+  font-weight: 100;
+  color: white;
+  margin-left: 40px;
+}
+
+
+
+
+
+
