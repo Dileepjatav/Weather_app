@@ -19,7 +19,7 @@ export const Weather = () => {
         const url=`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}`
         try{
           axios.get(url)
-          .then((data)=>{
+          .then((data)=>{ 
             setdata(data.data)
           })
           .catch((e)=>{
